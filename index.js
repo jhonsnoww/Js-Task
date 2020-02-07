@@ -1,11 +1,18 @@
 
-var fruits =["Apple","Banana","Orange"]
-var x =(e)=>{
-    console.log(e);
-}
+var fruits =["Apple","Banana","Orange"];
+var numbers =[89,90,20,199];
 
-fruits.forEach(x);
+  var nus = numbers.map((e)=>{
+    if(e > 40){
+        return e;
+    }
+       
+})
 
-fruits.forEach((e,i)=>{
-    console.log(i+" : "+ee)
-});
+console.log(nus);
+
+var numsFilter = numbers.filter((e)=>{
+    return e;
+})
+
+console.log(numsFilter);
