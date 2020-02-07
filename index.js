@@ -1,8 +1,11 @@
+
 var fruits =["Apple","Banana","Orange"]
+var x =(e)=>{
+    console.log(e);
+}
 
-var newFruits = fruits;
+fruits.forEach(x);
 
-var x = 4;
-var y = x;
-
-//instance obj and refrence Obj
+fruits.forEach((e,i)=>{
+    console.log(i+" : "+ee)
+});
